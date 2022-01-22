@@ -11,6 +11,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- Including Lightbox plugin -->
+		<link rel="stylesheet" href="assets/lightbox/css/lightbox.min.css" />
+
+		<!-- Including Lightbox plugin -->
+		<script src="assets/lightbox/js/lightbox-plus-jquery.min.js"></script>
+
 	</head>
 	<body class="is-preload">
 
@@ -32,8 +39,8 @@
 							<ul>
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#work">Work</a></li>
-								<li><a href="#work">Photo</a></li>
-								<li><a href="#about">Music</a></li>
+								<li><a href="#photo">Photo</a></li>
+								<li><a href="#elements">Music</a></li>
 								<li><a href="#about">About</a></li>
 								<!--<li><a href="#contact">Contact</a></li>-->
 								<!--<li><a href="#elements">Elements</a></li>-->
@@ -47,6 +54,7 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
+								
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
 								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
@@ -60,19 +68,40 @@
 								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
 							</article>
 
+						<!-- Photo -->
+							<article id="photo">
+								<h2 class="major">Photography</h2>
+								<span class="image main"><img src="images/photo_main.jpg" alt="Toronto's night view" /></span>
+
+								<h3 class="major">Intro</h3>
+
+								<p>Photography is one of my greatest passions. It not only gave me another perspective to see things,it also allowed me too share my experiences with other in a different way.
+								</p>
+
+								<p>
+									If you are interested to check out some of my work, or have a discussion about photography with me,it's my pleasure!
+								</p>
+								<div class="center">
+									<a href="gallery.html" class="button">Gallery</a>
+								</div>
+								
+							</article>
+
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About me</h2>
-								<span class="image main"><img src="images/avatar_main.JPG" alt="" /></span>
+								<span class="image main"><img src="images/avatar_main.JPG" alt="A picture of me" /></span>
 								
-								<ul>
-									<li>Year 2 <b>Computer Science</b> undergrad at <b>University of Waterloo</b></li>
-									<li>Photographer and Guitarist</li>
-									<li>Now having a 8-month work term at <b>Huawei</b></li>
-									<li>Feel free to contact me at: <a href="mailto:Caohonglin317@hotmail.com">Caohonglin317@hotmail.com</a></li>
-								</ul>
+								<hr />
+								<li>Year 2 <b>Computer Science</b> undergrad at <b>University of Waterloo</b></li>
+								<li>Photographer and Guitarist</li>
+								<li>Now having a 8-month work term at <b>Huawei</b></li>
+								<hr />
+
+							<p>Feel free to contact me or add me to contact on following channel:</p>
 
 								<ul class="icons">
+									<li><a href="mailto:Caohonglin317@hotmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 									<li><a href="https://twitter.com/V2_arK" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="https://www.linkedin.com/in/v2ark/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
 									<li><a href="https://www.youtube.com/channel/UCVfa9lr_YzQVPU59vhrRRQg" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
@@ -374,6 +403,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+		
 
 	</body>
 </html>
