@@ -29,13 +29,13 @@ ul.gallery {
 	padding-left: 10%;
 	padding-right: 10%;
 	align-items: center;
-	width: 80%;
+	width: 100%;
   	flex-wrap: wrap;
 	
 }
 
 li.photo {
-	width: 30%;
+	width: 33.33333%;
 	height: auto;
 }
 
