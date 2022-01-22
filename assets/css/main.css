@@ -20,7 +20,15 @@ ul.gallery {
 	padding-left: 10%;
 	padding-right: 10%;
 	align-items: center;
+	width: 80%;
+  	flex-wrap: wrap;
+	
+}
 
+li.photo {
+	width: 200px;
+	height: auto;
+	list-style: none;
 }
 
 /* Normal */
