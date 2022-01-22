@@ -7,6 +7,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+	/* for logo */
+
+	.center {
+		display: block;
+		margin: auto;
+		align-items: center;
+		width: 20%;
+	  }
+
 /* Extra for Gallery */
 
 ul.gallery {
@@ -26,9 +35,8 @@ ul.gallery {
 }
 
 li.photo {
-	width: 200px;
+	width: 30%;
 	height: auto;
-	list-style: none;
 }
 
 /* Normal */
@@ -135,14 +143,6 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-		/* for logo */
-
-		.center {
-			display: block;
-			margin: auto;
-			align-items: center;
-			width: 20%;
-		  }
 
 /* Type */
 
