@@ -1,8 +1,0 @@
-.gallery img {
-    transition: 1s;
-}
-
-.gallery img:hover {
-    filter: grayscale(50%);
-    transform: scale(1.1);
-}
