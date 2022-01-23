@@ -60,29 +60,20 @@
 	  .masonry {
 	  columns: 2;
 	}
-	.image.fit {
-		width: 50%;
-	}
+
   }
   @media only screen and (min-width: 1024px) {
 	.masonry {
 	  columns: 3;
 	}
-	.image.fit {
-		width: 33.333333%;
-	}
   }
 
   @media only screen and (max-width: 736px) {  
-	.masonry {
-	columns: 1;
-  }
+
   .masonry-item {
 	  width: 100%;
   }
-  .image.fit {
-	width: 100%;
-}
+
 }
 
   .masonry-item, .masonry-content {
