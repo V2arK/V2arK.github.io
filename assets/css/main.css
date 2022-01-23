@@ -48,7 +48,7 @@
 	margin-left: auto;
   }
   .masonry {
-	columns: 4;
+	columns: 1;
 	column-gap: 10px;
   }
   .masonry-item {
@@ -56,15 +56,33 @@
 	vertical-align: top;
 	margin-bottom: 10px;
   }
-  @media only screen and (max-width: 1023px) and (min-width: 768px) {  .masonry {
+  @media only screen and (max-width: 1023px) and (min-width: 736px) {  
+	  .masonry {
 	  columns: 2;
+	}
+	.image.fit {
+		width: 50%;
 	}
   }
   @media only screen and (min-width: 1024px) {
 	.masonry {
 	  columns: 3;
 	}
+	.image.fit {
+		width: 33.333333%;
+	}
   }
+
+  @media only screen and (max-width: 736px) {  
+	.masonry {
+	columns: 1;
+	align-items: center;
+  }
+  .masonry-item {
+	  width: 100%;
+  }
+}
+
   .masonry-item, .masonry-content {
 	border-radius: 4px;
 	overflow: hidden;
@@ -774,7 +792,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0.5em; /* used to be 0 0 2em 0 */
+			margin: 0; /* used to be 0 0 2em 0 */
 			width: 100%;
 		}
 
