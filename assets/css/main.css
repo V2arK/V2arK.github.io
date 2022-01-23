@@ -76,11 +76,13 @@
   @media only screen and (max-width: 736px) {  
 	.masonry {
 	columns: 1;
-	align-items: center;
   }
   .masonry-item {
 	  width: 100%;
   }
+  .image.fit {
+	width: 100%;
+}
 }
 
   .masonry-item, .masonry-content {
