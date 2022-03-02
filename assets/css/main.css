@@ -58,20 +58,20 @@
   }
   @media only screen and (max-width: 1023px) and (min-width: 736px) {  
 	  .masonry {
-	  columns: 2;
+	  columns: 3;
 	}
 
   }
   @media only screen and (min-width: 1024px) {
 	.masonry {
-	  columns: 3;
+	  columns: 4;
 	}
   }
 
   @media only screen and (max-width: 736px) {  
 
 	.masonry {
-		columns: 1;
+		columns: 2;
 	  }
 
   .masonry-item {
