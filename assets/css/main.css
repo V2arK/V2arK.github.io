@@ -43,7 +43,7 @@
   }
   .masonry-wrapper {
 	padding: 1.5em;
-	max-width: 960px;
+	max-width: 2171px;
 	margin-right: auto;
 	margin-left: auto;
   }
@@ -62,10 +62,34 @@
 	}
 
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (max-width: 1310px) and (min-width: 1023px) {
 	.masonry {
 	  columns: 4;
 	}
+  }
+
+  @media only screen and (max-width: 1597px) and (min-width: 1310px) {
+  	.masonry {
+  		columns: 5;
+  	}
+  }
+
+  @media only screen and (max-width: 1884px) and (min-width: 1597px) {
+  	.masonry {
+  		columns: 6;
+  	}
+  }
+
+  @media only screen and (max-width: 2171px) and (min-width: 1884px) {
+  	.masonry {
+  		columns: 7;
+  	}
+  }
+
+  @media only screen and (min-width: 2171px) {
+  	.masonry {
+  		columns: 8;
+  	}
   }
 
   @media only screen and (max-width: 736px) {  
