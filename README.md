@@ -100,3 +100,85 @@ flatpak install flathub com.tencent.WeChat
 sudo dnf install thunderbord
 
 ```
+
+#### my `.bashrc` (choose what you need)
+
+```bash
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+if [ -d ~/.bashrc.d ]; then
+    for rc in ~/.bashrc.d/*; do
+        if [ -f "$rc" ]; then
+            . "$rc"
+        fi
+    done
+fi
+unset rc
+
+export EDITOR=vim
+
+# qol
+alias sshnas="ssh v2ark@10.0.0.104"
+alias sshcs="ssh h45cao@linux.student.cs.uwaterloo.ca"
+alias open="xdg-open"
+alias pipUpdate="pip3 list --outdated | grep wheel | awk '{print $1}' | xargs -n1 pip3 install -U"
+
+# bashrc
+alias sb="source ~/.bashrc"
+alias vb="vim ~/.bashrc"
+alias cb="code ~/.bashrc"
+
+# CS488
+alias build488="cmake ./ && make && ./CS488"
+alias build488quiet=" cmake >> /dev/null 2>&1 ./ && make >> /dev/null 2>&1  && ./CS488"
+alias zip488="zip -r A2.zip src screenshots README.md -x \"*GLEW*\" \"*GLFW*\" \"src/linalg.h\" \"src/gif.h\" \"src/stb*\""
+
+# build project
+alias bp="cd ~/FluidSim; cmake . && make && cd bin && ./*"
+
+# functions
+
+# Copy Full Filename
+cff ()
+{
+  if [ -z "$1" ]; then
+    echo "Usage: cfp file_name"
+    return 1
+  fi
+
+  filepath=$(find $(pwd) | grep "$1" | head -1)
+
+  echo "$filepath" | xclip -selection clipboard
+  echo "Copied to clipboard: $filepath"
+
+}
+
+alias cpf="xclip-copyfile" # copy file to clipboard
+
+mkcd ()
+{
+    mkdir -p -- "$1" &&
+       cd -P -- "$1"
+}
+
+# oh my posh settings
+# eval "$(oh-my-posh init bash)"
+eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/clean-detailed.omp.json)"
+
+# homebrew settings
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+```
