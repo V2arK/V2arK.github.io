@@ -159,6 +159,11 @@ alias bp="cd ~/FluidSim; cmake . && make && cd bin && ./*"
 
 # functions
 
+# git add -u; git commit; git push
+function gm() {
+     git add -u && git commit -m "$1" && git push
+}
+
 # Copy Full Filename
 cff ()
 {
