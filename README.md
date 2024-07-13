@@ -78,6 +78,12 @@ echo "disabled" | sudo tee /sys/bus/usb/devices/1-4/power/wakeup >> /dev/null 2&
 ```
 (this script will be run on log in)
 
+#### [Power profile automation](https://gitlab.com/EikoTsukida/power-profiles-automation)
+```bash
+git clone git@gitlab.com:EikoTsukida/power-profiles-automation.git;
+cd power-profiles-automation; bash installer.sh
+```
+
 #### softwares
 
 ```bash
