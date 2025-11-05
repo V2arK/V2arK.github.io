@@ -1,0 +1,43 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "This is a personal website." } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>{title} - V2arK</title>
+  <meta name="description" content={description} />
+  
+  <!-- Preserve your existing CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="/assets/css/noscript.css" />
+  </noscript>
+</head>
+
+<body class="is-preload">
+  <div id="wrapper">
+    <slot />
+    
+    <footer id="footer">
+      <p class="copyright">&copy; {new Date().getFullYear()} Honglin Cao. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <div id="bg"></div>
+
+  <!-- Your existing scripts -->
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/browser.min.js"></script>
+  <script src="/assets/js/breakpoints.min.js"></script>
+  <script src="/assets/js/util.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

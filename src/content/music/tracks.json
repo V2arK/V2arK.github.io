@@ -1,0 +1,166 @@
+{
+  "offVocals": [
+    {
+      "id": "beautiful-world",
+      "title": "Beautiful world",
+      "artist": "THE CHARM PARK",
+      "mp3": "/music/BeautifulWorld_offvocal.mp3",
+      "lossless": "/music/BeautifulWorld_offvocal.wav"
+    },
+    {
+      "id": "its-not-the-same",
+      "title": "It's not the same [DEMO]",
+      "artist": "THE CHARM PARK",
+      "mp3": "/music/ItsNotTheSame_offvocal.mp3"
+    },
+    {
+      "id": "doraihurawa",
+      "title": "???????",
+      "artist": "??",
+      "mp3": "/music/???????_offvocal.mp3"
+    },
+    {
+      "id": "blue-moon",
+      "title": "Blue Moon",
+      "artist": "??",
+      "mp3": "/music/BlueMoon_offvocal.mp3",
+      "lossless": "/music/BlueMoon_offvocal.flac"
+    },
+    {
+      "id": "you-felt",
+      "title": "You",
+      "artist": "FELT",
+      "mp3": "/music/You_FELT_offvocal.flac"
+    },
+    {
+      "id": "tabako",
+      "title": "???",
+      "artist": "????",
+      "mp3": "/music/???_offvocal.mp3"
+    },
+    {
+      "id": "kokorozashi",
+      "title": "???",
+      "artist": "GUMI",
+      "mp3": "/music/???_offvocal.mp3",
+      "lossless": "/music/???_offvocal.flac"
+    },
+    {
+      "id": "kimi-no-namae",
+      "title": "?????",
+      "artist": "????",
+      "mp3": "/music/?????_offvocal.mp3",
+      "lossless": "/music/?????_offvocal.flac"
+    },
+    {
+      "id": "kimi-no-sei",
+      "title": "????",
+      "artist": "the peggies",
+      "mp3": "/music/????_offvocal.flac"
+    },
+    {
+      "id": "lemon",
+      "title": "Lemon",
+      "artist": "????",
+      "mp3": "/music/Lemon_offvocal.mp3",
+      "lossless": "/music/Lemon_offvocal.flac"
+    },
+    {
+      "id": "refrain",
+      "title": "Ref:rain (TV size)",
+      "artist": "Aimer",
+      "mp3": "/music/RefRain_offvocal.mp3",
+      "lossless": "/music/RefRain_offvocal.flac"
+    },
+    {
+      "id": "namae-wo-yobu-yo",
+      "title": "?????? (TV size)",
+      "artist": "??????",
+      "mp3": "/music/??????_offvocal.mp3",
+      "lossless": "/music/??????_offvocal.flac"
+    },
+    {
+      "id": "sayonara-midnight",
+      "title": "??????????",
+      "artist": "????",
+      "mp3": "/music/?????????_Offvocal.mp3"
+    },
+    {
+      "id": "guriguri-megane",
+      "title": "???????????",
+      "artist": "????",
+      "mp3": "/music/???????????_offvocal.mp3",
+      "lossless": "/music/???????????_offvocal.flac"
+    },
+    {
+      "id": "hachigatsu-sanjuniichi",
+      "title": "8?31? feat. ????",
+      "artist": "DECO*27",
+      "mp3": "/music/8?31?_offvocal.mp3",
+      "lossless": "/music/8?31?_offvocal.flac"
+    },
+    {
+      "id": "hikaru-nara",
+      "title": "????",
+      "artist": "Goose House",
+      "mp3": "/music/????_offvocal.mp3",
+      "lossless": "/music/????_offvocal.flac"
+    }
+  ],
+  "tabs": [
+    {
+      "id": "blue-moon",
+      "title": "Blue Moon",
+      "artist": "??",
+      "file": "/tabs/Blue_moon.gp"
+    },
+    {
+      "id": "kimi-no-sei",
+      "title": "????",
+      "artist": "the peggies",
+      "file": "/tabs/????.gp"
+    },
+    {
+      "id": "dried-flower",
+      "title": "???????",
+      "artist": "??",
+      "file": "/tabs/Dried_flower.gp"
+    },
+    {
+      "id": "you",
+      "title": "You",
+      "artist": "FELT",
+      "file": "/tabs/You.gp"
+    },
+    {
+      "id": "kimi-no-namae",
+      "title": "?????",
+      "artist": "????",
+      "file": "/tabs/?????.gp"
+    },
+    {
+      "id": "guriguri-megane",
+      "title": "???????????",
+      "artist": "????",
+      "file": "/tabs/???????????.gp"
+    },
+    {
+      "id": "tabako",
+      "title": "???",
+      "artist": "????",
+      "file": "/tabs/???.gp"
+    },
+    {
+      "id": "i",
+      "title": "I (feat. Verbal Jint)",
+      "artist": "Taeyeon",
+      "file": "/tabs/I.gp"
+    },
+    {
+      "id": "outro-mili",
+      "title": "Outro",
+      "artist": "Mili",
+      "file": "/tabs/Outro_Mili.gp"
+    }
+  ]
+}

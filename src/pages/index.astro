@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import MusicSection from '../components/MusicSection.astro';
+import { getCollection } from 'astro:content';
+
+const notesData = await getCollection('notes');
+const courses = notesData[0].data.courses;
+---
+
+<BaseLayout title="V2arK - Personal Website">
+  <Header />
+  
+  <div id="main">
+    <!-- Learning Section -->
+    <article id="learn">
+      <h2 class="major">Notes</h2>
+      {courses.map((course) => (
+        <a href={course.file} class="button icon solid fa-download">
+          {course.code}
+        </a>
+      ))}
+    </article>
+
+    <!-- Photo Section -->
+    <article id="photo">
+      <h2 class="major">Photography</h2>
+      <span class="image main"><img src="/images/photo_main.jpg" alt="Toronto's night view" /></span>
+
+      <h3 class="major">Intro</h3>
+
+      <p>Photography is one of my greatest passions. It not only gave me another perspective to see things,it
+          also allowed me too share my experiences with other in a different way.
+      </p>
+
+      <p>
+          If you are interested to check out some of my work, or have a discussion about photography with
+          me,it's my pleasure!
+      </p>
+
+      <p>
+          Be careful of your data usage! Some of the photo are rather large!
+      </p>
+      <div class="field">
+          <a href="/gallery" class="button">Gallery</a>
+      </div>
+    </article>
+
+    <!-- Music Section -->
+    <MusicSection />
+
+    <!-- About Section -->
+    <article id="about">
+      <h2 class="major">About me</h2>
+      <span class="image main"><img src="/images/avatar_main.JPG" alt="A picture of me" /></span>
+
+      <hr />
+      <ul>
+        <li> <b>Honglin Cao</b>, or <b>Alex</b>.</li>
+        <li>He / him / his</li>
+        <li>?? / English / ???</li>
+        <li>Photographer, Guitarist and a big petrolhead :) </li>
+        <li>Year 4 <b>Computer Science</b> undergrad at <b>University of Waterloo</b></li>
+      </ul>
+      <hr />
+
+      <p>Feel free to contact me or add me on the following platform:</p>
+
+      <ul class="icons">
+        <li><a href="mailto:Caohonglin317@hotmail.com" class="icon solid fa-envelope"><span
+                    class="label">Email</span></a></li>
+        <li><a href="https://twitter.com/V2_arK" class="icon brands fa-twitter"><span
+                    class="label">Twitter</span></a></li>
+        <li><a href="https://www.linkedin.com/in/v2ark/" class="icon brands fa-linkedin"><span
+                    class="label">Linkedin</span></a></li>
+        <li><a href="https://www.youtube.com/channel/UCVfa9lr_YzQVPU59vhrRRQg"
+                class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+        <li><a href="https://www.instagram.com/2a_vlk/" class="icon brands fa-instagram"><span
+                    class="label">Instagram</span></a></li>
+        <li><a href="https://github.com/V2arK" class="icon brands fa-github"><span
+                    class="label">GitHub</span></a></li>
+      </ul>
+
+      <!-- hitwebcounter Code START -->
+      <img src="https://hitwebcounter.com/counter/counter.php?page=7966298&style=0025&nbdigits=6&type=page&initCount=0"
+          title="Free Counter" Alt="web counter" border="0" />
+    </article>
+  </div>
+</BaseLayout>

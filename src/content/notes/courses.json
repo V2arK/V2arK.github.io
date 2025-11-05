@@ -1,0 +1,32 @@
+{
+  "courses": [
+    {
+      "code": "MATH138",
+      "file": "/notes/MATH138_note.pdf"
+    },
+    {
+      "code": "MATH239",
+      "file": "/notes/MATH239_note.pdf"
+    },
+    {
+      "code": "CS245",
+      "file": "/notes/CS245_note.pdf"
+    },
+    {
+      "code": "CS240",
+      "file": "/notes/CS240_note.pdf"
+    },
+    {
+      "code": "CS486",
+      "file": "/notes/CS486_note.pdf"
+    },
+    {
+      "code": "STAT230",
+      "file": "/notes/STAT230_note.pdf"
+    },
+    {
+      "code": "STAT231",
+      "file": "/notes/STAT231_note.pdf"
+    }
+  ]
+}

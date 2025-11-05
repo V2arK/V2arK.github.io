@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import GalleryGrid from '../components/GalleryGrid.astro';
+---
+
+<BaseLayout title="Gallery">
+  <header id="header">
+    <div class="content">
+      <div class="inner">
+        <h1>Gallery</h1>
+      </div>
+    </div>
+  </header>
+
+  <GalleryGrid />
+
+  <div class="field">
+    <a href="/" class="button">Back</a>
+  </div>
+</BaseLayout>

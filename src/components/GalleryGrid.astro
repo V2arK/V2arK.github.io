@@ -1,0 +1,86 @@
+---
+import { getCollection } from 'astro:content';
+
+const photoData = await getCollection('photos');
+const photos = photoData[0].data.images;
+---
+
+<div class="masonry-wrapper">
+  <div class="masonry" id="gallery">
+    {photos.map((photo) => (
+      <div class="masonry-item">
+        <a 
+          href={`/${photo.filename}`}
+          data-pswp-width="3000"
+          data-pswp-height="2000"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={`/${photo.thumbnail}`}
+            alt={photo.title}
+            width="300"
+            height="auto"
+            loading="lazy"
+            decoding="async"
+          />
+        </a>
+        <div class="caption">
+          <strong>{photo.title}</strong><br/>
+          {photo.camera && (
+            <>
+              {photo.camera}
+              {photo.lens && ` | ${photo.lens}`}
+              <br/>
+            </>
+          )}
+          {photo.settings && (
+            <>
+              {photo.settings.aperture && `${photo.settings.aperture}`}
+              {photo.settings.shutter && ` | ${photo.settings.shutter}`}
+              {photo.settings.iso && ` | ${photo.settings.iso}`}
+            </>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
+<script>
+  // ?????????????????? PhotoSwipe
+  document.addEventListener('astro:page-load', () => {
+    const galleryLinks = document.querySelectorAll('#gallery a');
+    galleryLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        // ???????????? PhotoSwipe ??
+        window.open(link.href, '_blank');
+      });
+    });
+  });
+</script>
+
+<style>
+  .masonry {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .masonry-item {
+    break-inside: avoid;
+  }
+  
+  .masonry-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .caption {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    color: #666;
+  }
+</style>

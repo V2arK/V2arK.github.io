@@ -1,0 +1,76 @@
+---
+import { getCollection } from 'astro:content';
+
+const musicData = await getCollection('music');
+const { offVocals, tabs } = musicData[0].data;
+---
+
+<article id="music">
+  <h2 class="major">Music</h2>
+  
+  <span class="image main"><img src="/images/avatar_music.jpg" alt="" /></span>
+  <p>I started to know about the fingerstyle guitar genre because of <a
+          href="https://www.youtube.com/watch?v=T6M1hgE_Sz8">Osamuraisan</a>. And after a few years of
+      practices, I began to make covers of the music I personally enjoys.</p>
+
+  <p>If you would like to check out some of my work, you can visit me at:</p>
+
+  <ul>
+    <li><a href="https://space.bilibili.com/6219991">Bilibili</a></li>
+    <li><a href="https://www.youtube.com/channel/UCVfa9lr_YzQVPU59vhrRRQg">Youtube</a></li>
+    <li><a href="https://music.163.com/#/artist?id=29051625">????? (netease music)</a></li>
+    <li><a href="https://y.qq.com/n/ryqq/singer/002Gl7FE1MFEiE">QQ?? (QQ Music)</a></li>
+  </ul>
+
+  <hr />
+
+  <section>
+    <h3>Off-vocal</h3>
+
+    <p>Please use save as to download the files! Some of the files are too large and exceeds the 50MB limit
+        of github, so they cannot be uploaded.</p>
+
+    <ul>
+      {offVocals.map((track) => (
+        <li>
+          <a href={track.mp3} class="button icon solid fa-download">
+            {track.artist} - {track.title}
+          </a>
+          {track.lossless && (
+            <a href={track.lossless} class="button icon solid fa-download">
+              Lossless
+            </a>
+          )}
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <hr />
+
+  <section>
+    <h3>Tab / Sheet music</h3>
+    <p>Please use save as to download the files! The file type will be '.gp', which is supposed to be open
+        with Guitar Pro 7.</p>
+
+    <p>These tabs are either arranged or transcribed by me, have fun playing with them, making modifications
+        or cover them.
+    </p>
+
+    <p>There is no need to credit me, but I will be very happy if you do so! :)</p>
+    
+    <ul>
+      {tabs.map((tab) => (
+        <li>
+          <a href={tab.file} class="button icon solid fa-download">
+            {tab.artist} - {tab.title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <hr />
+
+  <p>More will be added</p>
+</article>

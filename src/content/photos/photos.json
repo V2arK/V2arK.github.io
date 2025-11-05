@@ -1,0 +1,900 @@
+{
+  "images": [
+    {
+      "id": "wutong-mountain",
+      "filename": "gallery/wutong_mountain.jpg",
+      "thumbnail": "gallery/thumbnail/wutong_mountain.jpg",
+      "title": "Wutong Mountain in Shenzhen, morning.",
+      "camera": "Fuji XT-3",
+      "lens": "XF 56mm f/1.2 R",
+      "settings": {
+        "aperture": "f/8",
+        "shutter": "5 sec",
+        "iso": "ISO 320",
+        "focal": "85 mm (1.5X crop factor)"
+      }
+    },
+    {
+      "id": "lotus",
+      "filename": "gallery/lotus.jpg",
+      "thumbnail": "gallery/thumbnail/lotus.jpg",
+      "title": "Lotus in the lake of a park in Shenzhen.",
+      "camera": "Phase One P40+ on Hasselblad 501",
+      "lens": "Zeiss 135mm",
+      "settings": {
+        "aperture": "f/8",
+        "shutter": "1 sec",
+        "iso": "ISO 100",
+        "focal": "100 mm (0.7X crop factor)"
+      }
+    },
+    {
+      "id": "treeskin",
+      "filename": "gallery/treeskin.jpg",
+      "thumbnail": "gallery/thumbnail/treeskin.jpg",
+      "title": "A tree's skin under the sun.",
+      "camera": "Fuji XT-3",
+      "lens": "XF 56mm f/1.2 R",
+      "settings": {
+        "aperture": "f/1.2",
+        "shutter": "1/1600 sec",
+        "iso": "ISO 160",
+        "focal": "85 mm (1.5X crop factor)"
+      }
+    },
+    {
+      "id": "bridge",
+      "filename": "gallery/bridge.JPEG",
+      "thumbnail": "gallery/thumbnail/bridge.JPEG",
+      "title": "A bridge in Richmond Hill.",
+      "camera": "Fuji XT-3",
+      "lens": "XF 18-55mm f2.8-4 R LM OIS",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/600 sec",
+        "iso": "ISO 160",
+        "focal": "25 mm (1.5X crop factor)"
+      }
+    },
+    {
+      "id": "street",
+      "filename": "gallery/street.jpg",
+      "thumbnail": "gallery/thumbnail/street.jpg",
+      "title": "A shot of Coopérative du Quartier Petit Champlain, Québec.",
+      "camera": "Sony RX100",
+      "lens": "f/5.6",
+      "settings": {
+        "aperture": "f/5.6",
+        "shutter": "1/200 sec",
+        "iso": "ISO 200",
+        "focal": "75 mm (equivalent)"
+      }
+    },
+    {
+      "id": "sculpture",
+      "filename": "gallery/sculpture.jpg",
+      "thumbnail": "gallery/thumbnail/sculpture.jpg",
+      "title": "A Sculpture in Downtown, Toronto.",
+      "camera": "Fuji XT-3",
+      "lens": "XF 56mm f/1.2 R",
+      "settings": {
+        "aperture": "f/8",
+        "shutter": "1/100 sec",
+        "iso": "ISO 100",
+        "focal": "85 mm (equivalent)"
+      }
+    },
+    {
+      "id": "night-toronto",
+      "filename": "gallery/Night_Toronto.jpg",
+      "thumbnail": "gallery/thumbnail/Night_Toronto.jpg",
+      "title": "A panoramic shot of the Night of Toronto",
+      "camera": "Fuji XT-3",
+      "lens": "XF 56mm f/1.2 R",
+      "settings": {
+        "aperture": "f/8",
+        "shutter": "3 sec",
+        "iso": "ISO 100",
+        "focal": "XF 56mm f/1.2 R"
+      }
+    },
+    {
+      "id": "sunset",
+      "filename": "gallery/sunset.jpg",
+      "thumbnail": "gallery/thumbnail/sunset.jpg",
+      "title": "A sunset shot in Mississauga.",
+      "camera": "Fuji XT-3",
+      "lens": "XF 23mm f/1.4 R",
+      "settings": {
+        "aperture": "f/5.6",
+        "shutter": "1/5 sec",
+        "iso": "ISO 100",
+        "focal": "35 mm (equivalent)"
+      }
+    },
+    {
+      "id": "leave-and-rock",
+      "filename": "gallery/leave_and_rock.jpg",
+      "thumbnail": "gallery/thumbnail/leave_and_rock.jpg",
+      "title": "A shot of autumn leaves on rocks.",
+      "camera": "Canon EOS R5",
+      "lens": "RF 50mm f/1.8 STM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/400 sec",
+        "iso": "ISO 400",
+        "focal": "50 mm"
+      }
+    },
+    {
+      "id": "chrismas-market",
+      "filename": "gallery/Chrismas_Market.jpg",
+      "thumbnail": "gallery/thumbnail/Chrismas_Market.jpg",
+      "title": "A shot of people in Christmas Market at 2019.",
+      "camera": "Fuji XT-3",
+      "lens": "XF 56mm f/1.2 R",
+      "settings": {
+        "aperture": "f/1.2",
+        "shutter": "1/200 sec",
+        "iso": "ISO 200",
+        "focal": "85 mm (equivalent)"
+      }
+    },
+    {
+      "id": "chrismas-market-rest",
+      "filename": "gallery/Chrismas_Market_rest.jpg",
+      "thumbnail": "gallery/thumbnail/Chrismas_Market_rest.jpg",
+      "title": "A shot of people in a restaurant at Christmas Market.",
+      "camera": "Fuji XT-3",
+      "lens": "XF 56mm f/1.2 R",
+      "settings": {
+        "aperture": "f/1.2",
+        "shutter": "1/200 sec",
+        "iso": "ISO 160",
+        "focal": "85 mm (equivalent)"
+      }
+    },
+    {
+      "id": "chrismas-market-tree",
+      "filename": "gallery/Chrismas_Market_tree.jpg",
+      "thumbnail": "gallery/thumbnail/Chrismas_Market_tree.jpg",
+      "title": "A ball on a Christmas tree at Christmas Market.",
+      "camera": "Fuji XT-3",
+      "lens": "XF 56mm f/1.2 R",
+      "settings": {
+        "aperture": "f/1.2",
+        "shutter": "1/300 sec",
+        "iso": "ISO 400",
+        "focal": "85 mm (equivalent)"
+      }
+    },
+    {
+      "id": "castle-bw",
+      "filename": "gallery/castle_BW.jpg",
+      "thumbnail": "gallery/thumbnail/castle_BW.jpg",
+      "title": "A castle at Thousand Islands.",
+      "camera": "Sony RX100",
+      "lens": "f/5.6",
+      "settings": {
+        "aperture": "f/5.6",
+        "shutter": "1/1000 sec",
+        "iso": "ISO 200",
+        "focal": "75 mm (equivalent)"
+      }
+    },
+    {
+      "id": "lighthouse-night",
+      "filename": "gallery/lighthouse_night.JPEG",
+      "thumbnail": "gallery/thumbnail/lighthouse_night.JPEG",
+      "title": "A lighthouse shining in the dark sky.",
+      "camera": "Fuji XT-3",
+      "lens": "XF 56mm f/1.2 R",
+      "settings": {
+        "aperture": "f/5.6",
+        "shutter": "10.0 sec",
+        "iso": "ISO 400",
+        "focal": "85 mm (equivalent)"
+      }
+    },
+    {
+      "id": "macro-flower",
+      "filename": "gallery/macro_flower.JPEG",
+      "thumbnail": "gallery/thumbnail/macro_flower.JPEG",
+      "title": "A closer look at a bouquet of flowers.",
+      "camera": "Fuji XT-3",
+      "lens": "XF80mm f/2.8 R LM OIS WR Macro",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/60 sec",
+        "iso": "ISO 400",
+        "focal": "120 mm (equivalent)"
+      }
+    },
+    {
+      "id": "maple-leaf",
+      "filename": "gallery/maple_leaf.JPEG",
+      "thumbnail": "gallery/thumbnail/maple_leaf.JPEG",
+      "title": "Maple leaves in Autumn.",
+      "camera": "Fuji XT-3",
+      "lens": "XF 56mm f/1.2 R",
+      "settings": {
+        "aperture": "f/1.2",
+        "shutter": "1/28000 sec",
+        "iso": "ISO 400",
+        "focal": "85 mm (equivalent)"
+      }
+    },
+    {
+      "id": "pana-cloud",
+      "filename": "gallery/pana_cloud.jpg",
+      "thumbnail": "gallery/thumbnail/pana_cloud.jpg",
+      "title": "Early morning at Algonquin Provincial Park.",
+      "camera": "Fuji XT-3",
+      "lens": "XF 56mm f/1.2 R",
+      "settings": {
+        "aperture": "f/8",
+        "shutter": "1/100 sec",
+        "iso": "ISO 200",
+        "focal": "85 mm (equivalent)"
+      }
+    },
+    {
+      "id": "guild-park",
+      "filename": "gallery/guild_park.JPEG",
+      "thumbnail": "gallery/thumbnail/guild_park.JPEG",
+      "title": "Guild park scenery.",
+      "camera": "Leica M (Typ 240)",
+      "lens": "Leica 75mm f1.4 Summilux-M",
+      "settings": {
+        "aperture": "f/3.4",
+        "shutter": "1/750 sec",
+        "iso": "ISO 400",
+        "focal": "75 mm"
+      }
+    },
+    {
+      "id": "sakura-1",
+      "filename": "gallery/sakura_1.JPEG",
+      "thumbnail": "gallery/thumbnail/sakura_1.JPEG",
+      "title": "Sakura in front of Japanese culture center.",
+      "camera": "Canon EOS R5",
+      "lens": "Voigtländer Nokton 40mm F1.2",
+      "settings": {
+        "aperture": "f/1.4",
+        "shutter": "1/2000 sec",
+        "iso": "ISO 200",
+        "focal": "40 mm"
+      }
+    },
+    {
+      "id": "tent-bulb",
+      "filename": "gallery/tent_bulb.JPEG",
+      "thumbnail": "gallery/thumbnail/tent_bulb.JPEG",
+      "title": "A light bulb in a tent.",
+      "camera": "Leica M (Typ 240)",
+      "lens": "Leica 75mm f1.4 Summilux-M",
+      "settings": {
+        "aperture": "f/1.4",
+        "shutter": "1/4000 sec",
+        "iso": "ISO 200",
+        "focal": "75 mm"
+      }
+    },
+    {
+      "id": "dreamy-leaf",
+      "filename": "gallery/Dreamy_leaf.JPEG",
+      "thumbnail": "gallery/thumbnail/Dreamy_leaf.JPEG",
+      "title": "A shot of dried leaves in the snow of my backyard. All time favourite.",
+      "camera": "Leica M (Typ 240)",
+      "lens": "Leica 75mm f1.4 Summilux-M",
+      "settings": {
+        "aperture": "f/1.7",
+        "shutter": "1/1500 sec",
+        "iso": "ISO 200",
+        "focal": "75 mm"
+      }
+    },
+    {
+      "id": "top-window",
+      "filename": "gallery/top_window.jpg",
+      "thumbnail": "gallery/thumbnail/top_window.jpg",
+      "title": "The top window of the Casa Loma.",
+      "camera": "Sony RX100",
+      "lens": "f/8",
+      "settings": {
+        "aperture": "f/8",
+        "shutter": "1/200 sec",
+        "iso": "ISO 200",
+        "focal": "75 mm (equivalent)"
+      }
+    },
+    {
+      "id": "wood-owl",
+      "filename": "gallery/wood_owl.jpg",
+      "thumbnail": "gallery/thumbnail/wood_owl.jpg",
+      "title": "Some Woodcraft at Chrismas Market store.",
+      "camera": "Fuji XT-3",
+      "lens": "XF 56mm f/1.2 R",
+      "settings": {
+        "aperture": "f/1.2",
+        "shutter": "1/400 sec",
+        "iso": "ISO 160",
+        "focal": "85 mm (equivalent)"
+      }
+    },
+    {
+      "id": "guild-leaf",
+      "filename": "gallery/guild_leaf.JPEG",
+      "thumbnail": "gallery/thumbnail/guild_leaf.JPEG",
+      "title": "A shot of yellow leaves on a branch by the fence in Guild park.",
+      "camera": "Leica M (Typ 240)",
+      "lens": "Leica 75mm f1.4 Summilux-M",
+      "settings": {
+        "aperture": "f/1.7",
+        "shutter": "1/1000 sec",
+        "iso": "ISO 200",
+        "focal": "75 mm"
+      }
+    },
+    {
+      "id": "icelake-house",
+      "filename": "gallery/icelake_house.JPG",
+      "thumbnail": "gallery/thumbnail/icelake_house.jpg",
+      "title": "log cabin on the frozen Lake Simcoe.",
+      "camera": "Leica M (Typ 240)",
+      "lens": "Voigtländer Nokton 40mm F1.2",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/1500 sec",
+        "iso": "ISO 200",
+        "focal": "40 mm"
+      }
+    },
+    {
+      "id": "rs6",
+      "filename": "gallery/rs6.JPG",
+      "thumbnail": "gallery/thumbnail/rs6.jpg",
+      "title": "Audi RS6 at Bloomington Go station.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/11",
+        "shutter": "2.0 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "niagara-sunset",
+      "filename": "gallery/Niagara_sunset.jpg",
+      "thumbnail": "gallery/thumbnail/Niagara_sunset.jpg",
+      "title": "Sunset at Niagara on the lake.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/10",
+        "shutter": "1/60 sec",
+        "iso": "ISO 200",
+        "focal": "45 mm"
+      }
+    },
+    {
+      "id": "guild-grass",
+      "filename": "gallery/Guild_grass.JPEG",
+      "thumbnail": "gallery/thumbnail/Guild_grass.JPEG",
+      "title": "A shot of the grass in Guild park.",
+      "camera": "Leica M (Typ 240)",
+      "lens": "Leica 75mm f1.4 Summilux-M",
+      "settings": {
+        "aperture": "f/2.4",
+        "shutter": "1/360 sec",
+        "iso": "ISO 200",
+        "focal": "75 mm"
+      }
+    },
+    {
+      "id": "kids-in-wilcox",
+      "filename": "gallery/kids_in_wilcox.JPG",
+      "thumbnail": "gallery/thumbnail/kids_in_wilcox.jpg",
+      "title": "Childrens in Lake Wilcox park.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/640 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "mt-in-wilcox",
+      "filename": "gallery/MT_in_wilcox.JPG",
+      "thumbnail": "gallery/thumbnail/MT_in_wilcox.jpg",
+      "title": "MT sensei at Lake Wilcox flexing his hand.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/400 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "audis5ta",
+      "filename": "gallery/AudiS5TA.JPG",
+      "thumbnail": "gallery/thumbnail/AudiS5TA.jpg",
+      "title": "My car at Bloomington Go station.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/8",
+        "shutter": "1 sec",
+        "iso": "ISO 200",
+        "focal": "24 mm"
+      }
+    },
+    {
+      "id": "protesters",
+      "filename": "gallery/protesters.jpg",
+      "thumbnail": "gallery/thumbnail/protesters.jpg",
+      "title": "Protesters in front of U.S Embassy at June, 25, 2022.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/1000 sec",
+        "iso": "ISO 200",
+        "focal": "58 mm"
+      }
+    },
+    {
+      "id": "roller-skating",
+      "filename": "gallery/Roller_skating.jpg",
+      "thumbnail": "gallery/thumbnail/Roller_skating.jpg",
+      "title": "Roller skaters playing at Downtown, Toronto.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/6400 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "chess-player",
+      "filename": "gallery/chess_player.jpg",
+      "thumbnail": "gallery/thumbnail/chess_player.jpg",
+      "title": "Two pedestrians playing chess on the ground.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/800 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "dawn-pole",
+      "filename": "gallery/Dawn_pole.JPG",
+      "thumbnail": "gallery/thumbnail/Dawn_pole.JPG",
+      "title": "A Pole in the Dawm, at Waterloo.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/125 sec",
+        "iso": "ISO 2500",
+        "focal": "48 mm"
+      }
+    },
+    {
+      "id": "repeat-fence",
+      "filename": "gallery/repeat_fence.jpg",
+      "thumbnail": "gallery/thumbnail/repeat_fence.jpg",
+      "title": "Repeating Fence.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/50 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "ellie",
+      "filename": "gallery/ellie.JPG",
+      "thumbnail": "gallery/thumbnail/ellie.jpg",
+      "title": "Ellie Gong in front of U.S Embassy.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/1000 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "father-son",
+      "filename": "gallery/Father_son.JPG",
+      "thumbnail": "gallery/thumbnail/Father_son.jpg",
+      "title": "A Father holding his son enjoying the fireworks at Canada Day.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/15 sec",
+        "iso": "ISO 51200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "radical-forest",
+      "filename": "gallery/Radical_forest.jpg",
+      "thumbnail": "gallery/thumbnail/Radical_forest.jpg",
+      "title": "Steven Chen driving his Radical SR3 at CTMP.",
+      "camera": "Canon EOS R5",
+      "lens": "Sigma 150-600mm f/5-6.3 C DG OS Canon",
+      "settings": {
+        "aperture": "f/8",
+        "shutter": "1/1600 sec",
+        "iso": "ISO 250",
+        "focal": "600 mm"
+      }
+    },
+    {
+      "id": "token",
+      "filename": "gallery/Token.JPG",
+      "thumbnail": "gallery/thumbnail/Token.JPG",
+      "title": "My landlord's Husky, Token.",
+      "camera": "Canon EOS R5",
+      "lens": "Canon RF50mm F1.8 STM",
+      "settings": {
+        "aperture": "f/1.8",
+        "shutter": "1/6400 sec",
+        "iso": "ISO 200",
+        "focal": "50 mm"
+      }
+    },
+    {
+      "id": "pfaff-935",
+      "filename": "gallery/Pfaff_935.JPG",
+      "thumbnail": "gallery/thumbnail/Pfaff_935.JPG",
+      "title": "Pfaff's Porsche 935, race car.",
+      "camera": "Canon EOS R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/3.2",
+        "shutter": "1/160 sec",
+        "iso": "ISO 1250",
+        "focal": "45 mm"
+      }
+    },
+    {
+      "id": "wood-stair",
+      "filename": "gallery/wood_stair.jpg",
+      "thumbnail": "gallery/thumbnail/wood_stair.jpg",
+      "title": "A wood stair surrounded by leaves at Lake Simcoe.",
+      "camera": "Leica M (Typ 240)",
+      "lens": "Voigtländer Nokton 40mm F1.2",
+      "settings": {
+        "aperture": "f/1.2",
+        "shutter": "1/90 sec",
+        "iso": "ISO 200",
+        "focal": "40 mm"
+      }
+    },
+    {
+      "id": "waterloo-sunset",
+      "filename": "gallery/waterloo_sunset.jpg",
+      "thumbnail": "gallery/thumbnail/waterloo_sunset.jpg",
+      "title": "Sunset at Waterloo, Ontario.",
+      "camera": "Canon R5",
+      "lens": "Voigtländer Nokton 40mm F1.2",
+      "settings": {
+        "aperture": "f/5.6",
+        "shutter": "1/8 sec",
+        "iso": "ISO 800",
+        "focal": "40 mm"
+      }
+    },
+    {
+      "id": "wheat-s5",
+      "filename": "gallery/Wheat_S5.JPG",
+      "thumbnail": "gallery/thumbnail/Wheat_S5.JPG",
+      "title": "My S5 Sportback at Niagara, Ontario.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/16",
+        "shutter": "1/250 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "niagara-night-flower",
+      "filename": "gallery/Niagara_night_flower.JPG",
+      "thumbnail": "gallery/thumbnail/Niagara_night_flower.JPG",
+      "title": "Street flowers at night, located at Niagara, Ontario.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/50 sec",
+        "iso": "ISO 640",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "niagara-sunset-street",
+      "filename": "gallery/Niagara_sunset_street.JPG",
+      "thumbnail": "gallery/thumbnail/Niagara_sunset_street.JPG",
+      "title": "Sunset on the street at Niagara, Ontario.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/100 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "comic-sketcher",
+      "filename": "gallery/comic_sketcher.JPG",
+      "thumbnail": "gallery/thumbnail/comic_sketcher.JPG",
+      "title": "A comic sketcher at Dundas Square, Toronto.",
+      "camera": "Leica M10",
+      "lens": "Voigtländer Nokton 40mm F1.2",
+      "settings": {
+        "aperture": "f/1.2",
+        "shutter": "1/500 sec",
+        "iso": "ISO 200",
+        "focal": "40 mm"
+      }
+    },
+    {
+      "id": "union-station-hall",
+      "filename": "gallery/union_station_hall.JPG",
+      "thumbnail": "gallery/thumbnail/union_station_hall.JPG",
+      "title": "Dome of the Union Station, Toronto.",
+      "camera": "Leica M10",
+      "lens": "Voigtländer Nokton 40mm F1.2",
+      "settings": {
+        "aperture": "f/2.0",
+        "shutter": "1/125 sec",
+        "iso": "ISO 1000",
+        "focal": "40 mm"
+      }
+    },
+    {
+      "id": "autumn-leaf-sun",
+      "filename": "gallery/autumn_leaf_sun.JPG",
+      "thumbnail": "gallery/thumbnail/autumn_leaf_sun.jpg",
+      "title": "View of toronto forest in October.",
+      "camera": "Leica M10",
+      "lens": "Voigtländer Nokton 40mm F1.2",
+      "settings": {
+        "aperture": "f/5.6",
+        "shutter": "1/120 sec",
+        "iso": "ISO 200",
+        "focal": "40 mm"
+      }
+    },
+    {
+      "id": "s5-sunset",
+      "filename": "gallery/S5_sunset.JPG",
+      "thumbnail": "gallery/thumbnail/S5_sunset.jpg",
+      "title": "S5 under the sunset in Pleasantville Curve, Newmarket.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/11",
+        "shutter": "1/40 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "s5-bloomington",
+      "filename": "gallery/S5_bloomington.jpg",
+      "thumbnail": "gallery/thumbnail/S5_bloomington.jpg",
+      "title": "Green S5 in Bloomington Go Station.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/8",
+        "shutter": "1/30 sec",
+        "iso": "ISO 3200",
+        "focal": "24 mm"
+      }
+    },
+    {
+      "id": "christmas-2023-bbq",
+      "filename": "gallery/Christmas_2023_bbq.JPG",
+      "thumbnail": "gallery/thumbnail/Christmas_2023_bbq.jpg",
+      "title": "A barbecue grille on Christmas Market, 2023.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/40 sec",
+        "iso": "ISO 12800",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "christmas-2023-street",
+      "filename": "gallery/Christmas_2023_street.JPG",
+      "thumbnail": "gallery/thumbnail/Christmas_2023_street.jpg",
+      "title": "The streets on Christmas Market, 2023.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/40 sec",
+        "iso": "ISO 1250",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "christmas-2023-sax",
+      "filename": "gallery/Christmas_2023_sax.JPG",
+      "thumbnail": "gallery/thumbnail/Christmas_2023_sax.jpg",
+      "title": "A sax player on Christmas Market, 2023.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/40 sec",
+        "iso": "ISO 400",
+        "focal": "62 mm"
+      }
+    },
+    {
+      "id": "christmas-2023-tree",
+      "filename": "gallery/Christmas_2023_tree.JPG",
+      "thumbnail": "gallery/thumbnail/Christmas_2023_tree.jpg",
+      "title": "A family stands in front of the DIOR branded christmas tree on Christmas Market,  2023.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/30 sec",
+        "iso": "ISO 1250",
+        "focal": "62 mm"
+      }
+    },
+    {
+      "id": "christmas-2023-ball",
+      "filename": "gallery/Christmas_2023_ball.JPG",
+      "thumbnail": "gallery/thumbnail/Christmas_2023_ball.jpg",
+      "title": "Balls hanging on the walkway on Christmas Market, 2023.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/100 sec",
+        "iso": "ISO 8000",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "presquile-lighthouse",
+      "filename": "gallery/presquile_lighthouse.JPG",
+      "thumbnail": "gallery/thumbnail/presquile_lighthouse.jpg",
+      "title": "Presqu'ile Point Lighthouse under the moon, shot in 2024 Feb.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/640 sec",
+        "iso": "ISO 200",
+        "focal": "46 mm"
+      }
+    },
+    {
+      "id": "s5-backlit1",
+      "filename": "gallery/S5_backlit1.JPG",
+      "thumbnail": "gallery/thumbnail/S5_backlit1.jpg",
+      "title": "My S5 under the sunset, in the woods. Shot in 2024 Feb.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/5.6",
+        "shutter": "1/40 sec",
+        "iso": "ISO 400",
+        "focal": "50 mm"
+      }
+    },
+    {
+      "id": "treebranch-ice",
+      "filename": "gallery/Treebranch_ice.JPG",
+      "thumbnail": "gallery/thumbnail/Treebranch_ice.jpg",
+      "title": "Some strange shaped ice on the tree branches, Shot in 2024 Feb.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/60 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "ottawa-sunset",
+      "filename": "gallery/Ottawa_sunset.JPG",
+      "thumbnail": "gallery/thumbnail/Ottawa_sunset.jpg",
+      "title": "Sunset of Ottawa downtown, shot in 2024 Feb.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/11",
+        "shutter": "1/50 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "notre-dame-dome",
+      "filename": "gallery/Notre_dame_dome.JPG",
+      "thumbnail": "gallery/thumbnail/Notre_dame_dome.jpg",
+      "title": "Dome of Notre Dame Cathedral Basilica, shot in 2024 Feb.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/25 sec",
+        "iso": "ISO 3200",
+        "focal": "24 mm"
+      }
+    },
+    {
+      "id": "jean-paul-portion",
+      "filename": "gallery/Jean_Paul_portion.JPG",
+      "thumbnail": "gallery/thumbnail/Jean_Paul_portion.jpg",
+      "title": "A portion of Jean-Paul Riopelle's painting, shot in 2024 Feb.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/200 sec",
+        "iso": "ISO 3200",
+        "focal": "58 mm"
+      }
+    },
+    {
+      "id": "ngc-dome",
+      "filename": "gallery/NGC_dome.JPG",
+      "thumbnail": "gallery/thumbnail/NGC_dome.jpg",
+      "title": "National Gallery of Canada's glass dome, shot in 2024 Feb.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/2000 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    },
+    {
+      "id": "ngc-hall",
+      "filename": "gallery/NGC_Hall.JPG",
+      "thumbnail": "gallery/thumbnail/NGC_Hall.jpg",
+      "title": "National Gallery of Canada's Hallway, shot in 2024 Feb.",
+      "camera": "Canon R5",
+      "lens": "RF24-70mm F2.8 L IS USM",
+      "settings": {
+        "aperture": "f/2.8",
+        "shutter": "1/400 sec",
+        "iso": "ISO 200",
+        "focal": "70 mm"
+      }
+    }
+  ]
+}
