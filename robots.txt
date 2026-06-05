@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /files/
+Disallow: /gallery/
+Disallow: /images/
+Disallow: /music/
+Disallow: /notes/
+Disallow: /tabs/
+Disallow: /assets/logo/
+Disallow: /assets/lightbox/images/
+Disallow: /assets/webfonts/
+Sitemap: https://v2ark.com/sitemap.xml

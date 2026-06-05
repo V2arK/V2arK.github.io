@@ -1,0 +1,264 @@
+{
+  "profiles": [
+    {
+      "href": "https://space.bilibili.com/6219991",
+      "label": "Bilibili"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCVfa9lr_YzQVPU59vhrRRQg",
+      "label": "Youtube"
+    },
+    {
+      "href": "https://music.163.com/#/artist?id=29051625",
+      "label": "网易云音乐 (netease music)"
+    },
+    {
+      "href": "https://y.qq.com/n/ryqq/singer/002Gl7FE1MFEiE",
+      "label": "QQ音乐 (QQ Music)"
+    }
+  ],
+  "off_vocals": [
+    {
+      "links": [
+        {
+          "href": "music/BeautifulWorld_offvocal.mp3",
+          "label": "THE CHARM PARK - Beautiful world"
+        },
+        {
+          "href": "music/BeautifulWorld_offvocal.wav",
+          "label": "Lossless"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/ItsNotTheSame_offvocal.mp3",
+          "label": "THE CHARM PARK - It's not the same [DEMO]"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/ドライフラワー_offvocal.mp3",
+          "label": "優里 - ドライフラワー"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/BlueMoon_offvocal.mp3",
+          "label": "絢香 - Blue Moon"
+        },
+        {
+          "href": "music/BlueMoon_offvocal.flac",
+          "label": "Lossless"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/You_FELT_offvocal.flac",
+          "label": "FELT - You (Lossless)"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/タバコ_offvocal.mp3",
+          "label": "コレサワ - たばこ"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/心做し_offvocal.mp3",
+          "label": "GUMI - 心做し"
+        },
+        {
+          "href": "music/心做し_offvocal.flac",
+          "label": "Lossless"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/きみの名前_offvocal.mp3",
+          "label": "藤川千愛 - きみの名前"
+        },
+        {
+          "href": "music/きみの名前_offvocal.flac",
+          "label": "Lossless"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/君のせい_offvocal.flac",
+          "label": "the peggies - 君のせい (Lossless)"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/Lemon_offvocal.mp3",
+          "label": "米津玄師 - Lemon"
+        },
+        {
+          "href": "music/Lemon_offvocal.flac",
+          "label": "Lossless"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/RefRain_offvocal.mp3",
+          "label": "Aimer - Ref:rain (TV size)"
+        },
+        {
+          "href": "music/RefRain_offvocal.flac",
+          "label": "Lossless"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/名前を呼ぶよ_offvocal.mp3",
+          "label": "ラックライフ - 名前を呼ぶよ (TV size)"
+        },
+        {
+          "href": "music/名前を呼ぶよ_offvocal.flac",
+          "label": "Lossless"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/さよならミドナイト_Offvocal.mp3",
+          "label": "大柴広己 - さよならミッドナイト"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/グリグリメガネと月光蟲_offvocal.mp3",
+          "label": "古川本舗 - グリグリメガネと月光蟲"
+        },
+        {
+          "href": "music/グリグリメガネと月光蟲_offvocal.flac",
+          "label": "Lossless"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/8月31日_offvocal.mp3",
+          "label": "DECO*27 - 8月31日 feat. 初音ミク"
+        },
+        {
+          "href": "music/8月31日_offvocal.flac",
+          "label": "Lossless"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "music/光るなら_offvocal.mp3",
+          "label": "Goose House - 光るなら"
+        },
+        {
+          "href": "music/光るなら_offvocal.flac",
+          "label": "Lossless"
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    {
+      "links": [
+        {
+          "href": "tabs/Blue_moon.gp",
+          "label": "絢香 - Blue Moon"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "tabs/君のせい.gp",
+          "label": "The peggies - 君のせい"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "tabs/Dried_flower.gp",
+          "label": "優里 - ドライフラワー"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "tabs/You.gp",
+          "label": "FELT - You"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "tabs/きみの名前.gp",
+          "label": "藤川千愛 - きみの名前"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "tabs/グリグリメガネと月光蟲.gp",
+          "label": "古川本舗 - グリグリメガネと月光蟲"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "tabs/たばこ.gp",
+          "label": "コレサワ - たばこ"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "tabs/I.gp",
+          "label": "Taeyeon - I (feat. Verbal Jint)"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "href": "tabs/Outro_Mili.gp",
+          "label": "Outro - Mili"
+        }
+      ]
+    }
+  ]
+}

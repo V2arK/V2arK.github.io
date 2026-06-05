@@ -14,16 +14,27 @@ All contect info is inside the website!
 
 The live site is a static GitHub Pages site at `https://v2ark.com/`.
 
-Repeated content is generated from `data/site.json`:
+Repeated content is generated from files under `data/`:
 
 ```bash
 python3 scripts/generate_site.py
 python3 scripts/validate_site.py
+python3 scripts/audit_thumbnails.py
 ```
 
-Edit `data/site.json` for notes, music links, tabs, and gallery entries. The root
-`index.html` and `gallery.html` files are generated static output that GitHub
+Edit `data/notes.json`, `data/music.json`, and `data/gallery.json` for notes,
+music links, tabs, and gallery entries. Edit `data/site.json` for site metadata,
+SEO files, and asset crawling policy. The root `index.html`, `gallery.html`,
+`robots.txt`, and `sitemap.xml` files are generated static output that GitHub
 Pages serves directly.
+
+Large full-size media files are intentionally left untouched. Thumbnail checks
+only apply to `gallery/thumbnail/`.
+
+`robots.txt` allows the HTML pages and disallows asset directories so PDFs,
+music files, notes, tabs, and gallery images are not advertised to crawlers.
+GitHub Pages cannot set per-file `X-Robots-Tag` headers, so already-indexed
+asset URLs may need to be renamed or removed to disappear from search results.
 
 
 ## Extra information

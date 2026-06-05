@@ -1,0 +1,38 @@
+name: Validate static site
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Check generated files
+        run: python3 scripts/generate_site.py --check
+
+      - name: Validate static site
+        run: python3 scripts/validate_site.py
+
+      - name: Audit thumbnails
+        run: python3 scripts/audit_thumbnails.py
+
+      - name: Validate JSON data
+        run: |
+          python3 -m json.tool data/site.json >/dev/null
+          python3 -m json.tool data/notes.json >/dev/null
+          python3 -m json.tool data/music.json >/dev/null
+          python3 -m json.tool data/gallery.json >/dev/null
+
+      - name: Check Python syntax
+        run: python3 -m compileall -q scripts

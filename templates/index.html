@@ -4,9 +4,11 @@
 <html>
 
 <head>
-	<title>V2arK</title>
+	<title>{{ site_title }}</title>
 	<meta charset="utf-8" />
+	<meta name="description" content="{{ site_description }}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="canonical" href="{{ home_url }}" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
@@ -137,6 +139,7 @@
 				<li>Photographer, Guitarist and a big petrolhead :) </li>
 				<li><b>Platform Software Engineer</b> at <b>NVIDIA</b></li>
 				<li>Recent graduate of <b>University of Waterloo</b></li>
+				<li>Here is my {{ resume_button }}</li>
 				<hr />
 				
 				<p>Feel free to contact me or add me on the following platform:</p>
@@ -179,6 +182,13 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+		document.querySelectorAll('.asset-link').forEach(function(button) {
+			button.addEventListener('click', function() {
+				window.location.href = button.dataset.file;
+			});
+		});
+	</script>
 
 
 
