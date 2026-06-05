@@ -10,6 +10,21 @@ Feel free to base your own website from this as well!
 
 All contect info is inside the website!
 
+## Site maintenance
+
+The live site is a static GitHub Pages site at `https://v2ark.com/`.
+
+Repeated content is generated from `data/site.json`:
+
+```bash
+python3 scripts/generate_site.py
+python3 scripts/validate_site.py
+```
+
+Edit `data/site.json` for notes, music links, tabs, and gallery entries. The root
+`index.html` and `gallery.html` files are generated static output that GitHub
+Pages serves directly.
+
 
 ## Extra information
 The following is my personal notes on my linux setup.
